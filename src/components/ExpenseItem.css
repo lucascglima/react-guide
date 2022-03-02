@@ -1,0 +1,31 @@
+.expense-item {
+  padding: 15px;
+  cursor: pointer;
+  margin: 16px;
+  font-size: 2rem;
+  display: flex;
+  margin: 8px;
+}
+
+.expense-item__description {
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  flex: 1;
+  background-color: rgba(148, 136, 136, 0.863);
+  padding: 8px;
+}
+
+.expense-item__description h2 {
+  font-size: 1.25rem;
+  color: rgba(90, 145, 18, 0.815);
+  margin: 16px;
+}
+
+.expense-item__price {
+  font-size: 1.25rem;
+  color: #f8f8f8;
+  margin: 16px;
+  float: right;
+  padding: 8px;
+}
